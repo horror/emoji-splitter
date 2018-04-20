@@ -9,7 +9,7 @@ var EmojiSpliter = function(){
 		$.ajax({
 			'async': false,
 			'global': false,
-			'url': 'emoji.json',
+			'url': 'https://rawgit.com/thanhdnh/emoji-splitter/master/emoji.json',
 			'dataType': "json",
 			'success': function (data) {
 				json = data;
